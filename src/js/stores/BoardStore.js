@@ -322,7 +322,7 @@ class BoardStore extends EventEmitter {
           player = this.levelUp(player)
         }
 
-        if (enemies[index].lvl === 999) {
+        if (enemies[index].lvl === 99) {
           console.log("You WON")
           this.dungeon.message = "You WON"
           this.restartGame()
