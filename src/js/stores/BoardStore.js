@@ -421,28 +421,6 @@ class BoardStore extends EventEmitter {
   }
 
   getBoundary() {
-  	/*Init a empty board before generating a new map*/
-
-  	/*1: DOES NOT WORK WITH HEIGHT XXX */
-
-  	/*2: MOVABLE CARACTER, MAKE SURE CAMERA WORKS CORRECTLY XXX */
-
-		/*3: FOG OF WAR, ON AND OFF XXX */
-
-		/*5: INNTERACT WITH DIFFERENT OBJECTS XXX */
-
-		/*6: LEVEL UPP XXX */
-
-		/*7: DUNGEON UPP XXX */
-
-		/*8: PROPER MAP GENERATION XXX */
-
-		/*9: WIN AND LOSE EVENTS XXX */
-
-		/*10: GAME BALANCE XXX */
-
-    /*11: UI */
-
 	  var tileSize = 20, // Must be equall to the tile size in CSS
 	  		gameMap = document.getElementById('board'),
 	  		width = window.innerWidth,
